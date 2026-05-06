@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 597078943a99c0d479e20ed6ae502406, type: 3}
   m_Name: oL
   m_EditorClassIdentifier: Assembly-CSharp::BaseEntity
-  ID: 123
-  EntityName: Kion
+  ID: 312
+  EntityName: oL
   prefab: {fileID: 6488280063319891443, guid: 640a12d90b2a9e44993af143b87015c1, type: 3}
   Icon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  Description: :D
+  Description: piero es malo

@@ -15,7 +15,9 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: c2f1fb826e8dfc244b1ea33de8162c99, type: 2}
+    - {fileID: 11400000, guid: fa989fd1afbbfcc4ca14588cdd058ad6, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -23,7 +25,7 @@ MonoBehaviour:
     SerializationNodes:
     - Name: dataBaseEntitys
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[Rarity, Assembly-CSharp],[System.Collections.Generic.List`1[[BaseEntity,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Rarity, Assembly-CSharp],[System.Collections.Generic.List`1[[BaseEntityData,
         Assembly-CSharp]], mscorlib]], mscorlib
     - Name: comparer
       Entry: 7
@@ -40,7 +42,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 2
     - Name: 
       Entry: 7
       Data: 
@@ -49,11 +51,46 @@ MonoBehaviour:
       Data: 0
     - Name: $v
       Entry: 7
-      Data: 2|System.Collections.Generic.List`1[[BaseEntity, Assembly-CSharp]], mscorlib
+      Data: 2|System.Collections.Generic.List`1[[BaseEntityData, Assembly-CSharp]],
+        mscorlib
     - Name: 
       Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
       Data: 0
     - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[BaseEntityData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
       Entry: 13
       Data: 
     - Name: 
@@ -68,3 +105,4 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+  entityPrefab: {fileID: 0}
