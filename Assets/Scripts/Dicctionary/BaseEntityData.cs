@@ -3,7 +3,7 @@ using Sirenix.OdinInspector;
 using System;
 [CreateAssetMenu(fileName = "BaseEntity", menuName = "Scriptable Objects/BaseEntity")]
 [InlineEditor]
-public class BaseEntity : ScriptableObject
+public class BaseEntityData : ScriptableObject
 {
     [FoldoutGroup("Settings")]
     public int ID;
