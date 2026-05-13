@@ -131,4 +131,23 @@ public class LinqExample : MonoBehaviour
     {
        var result = numbers.Where(x => x != 1).OrderByDescending(x => x).Take(3).Select(x => x).ToString().ToList();
     }
+
+    ///// METODOS EXTRA LINQ
+    [Button]
+    public void testAll()
+    {
+        bool result = numbers.All(x => x != 1);
+
+    }
+
+    public void TestContains()
+    {
+        bool result = numbers.Contains(1);
+    }
+
+    public void TestCount()
+    {
+        int count = numbers.Count(x => x != 1);
+    }
+
 }
